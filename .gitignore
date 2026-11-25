@@ -1,0 +1,13 @@
+# Archivos temporales de LaTeX
+*.aux
+*.log
+*.out
+*.toc
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Sistema operativo
+Thumbs.db
+desktop.ini
