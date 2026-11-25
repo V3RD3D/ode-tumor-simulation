@@ -92,10 +92,20 @@ Requiere Python 3 y las librerías `numpy` y `matplotlib`:
 pip install numpy matplotlib
 ```
 
-Para ejecutar:
+Para ejecutar, primero entra a la carpeta donde clonaste el repositorio:
 
 ```powershell
-cd "C:\dayron\MATCOM\segundo año\primer semestre\edo\proyecto"
+git clone https://github.com/V3RD3D/proyecto.git
+cd proyecto
+pip install numpy matplotlib
+python simulaciones.py
+```
+
+> Si ya renombraste el repositorio, reemplaza `proyecto` por el nombre nuevo en el `clone` y en el `cd`.
+
+Si ya descargaste el proyecto, solo ubícate en la carpeta que contiene `simulaciones.py` y ejecuta:
+
+```powershell
 python simulaciones.py
 ```
 
